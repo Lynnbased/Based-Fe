@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪙 Dev3Arena On-Chain Badges (Frontend)
 
-## Getting Started
+The **Dev3Arena On-Chain Badges dApp** is a Web3 application that allows members of the **Dev3Arena community** to connect their wallets, complete learning tasks, and claim NFT badges as **proof of participation** or skill.  
 
-First, run the development server:
+This frontend interfaces with the smart contract deployed on the **Base Sepolia Testnet**, enabling a transparent and decentralized badge-claiming process.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The goal of Dev3Arena On-Chain Badges is to **reward learning progress** and **community engagement** with verifiable on-chain credentials.  
+Users can:
+- Connect their wallet (MetaMask or compatible)
+- View available learning tasks
+- Claim badges for completed tasks
+- View their earned badges
+- Admins can mint badges manually for participants
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Layer | Technology |
+|-------|-------------|
+| **Frontend Framework** | React (Vite) |
+| **Styling** | Tailwind CSS |
+| **Blockchain SDK** | Wagmi + Viem |
+| **Network** | Base Sepolia (Testnet) |
+| **Contract Standard** | ERC-721 (NFT) |
+| **Storage** | IPFS / Pinata for metadata |
+| **Deployment** | Vercel |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Features
 
-## Deploy on Vercel
+✅ Wallet connection via MetaMask  
+✅ Automatic Base network detection and switch prompt  
+✅ Task list with claimable badges  
+✅ View owned badges (fetched from contract + IPFS)  
+✅ Admin dashboard for minting badges  
+✅ Deployed on Base testnet and Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧩 Folder Structure
