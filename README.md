@@ -39,7 +39,7 @@ Users can:
 ✅ Task list with claimable badges  
 ✅ View owned badges (fetched from contract + IPFS)  
 ✅ Admin dashboard for minting badges  
-✅ Deployed on Base testnet and Vercel  
+✅ Deployed on Base testnet and Vercel
 
 ---
 
